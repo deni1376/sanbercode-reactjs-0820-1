@@ -47,17 +47,7 @@ console.log(kalimat)
 
 //soal 5
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
-daftarBuah.sort()
-var daftarBuah2= daftarBuah.join(",")
-var buah1 = daftarBuah2.slice(0,9)
-var buah2 = daftarBuah2.slice(10,17)
-var buah3 = daftarBuah2.slice(18,27)
-var buah4 = daftarBuah2.slice(28,39)
-var buah5 = daftarBuah2.slice(40,48)
-console.log(buah1)
-console.log(buah2)
-console.log(buah3)
-console.log(buah4)
-console.log(buah5)
-
-
+var daftarbuah2 = daftarBuah.sort()
+for(var m= 0; m <daftarbuah2.length; m++) {
+    console.log(daftarbuah2[m]);
+  } 
