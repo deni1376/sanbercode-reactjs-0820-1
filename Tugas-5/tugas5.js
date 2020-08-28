@@ -19,7 +19,7 @@ console.log(hasilKali)
 
 //soal 3
 function introduce(){
-return "Nama saya"+" "+name+","+" "+"umur saya "+" "+age+" ,"+" "+" alamat saya di"+" "+address+","+" "+"dan saya punya hobby yaitu"+" "+hobby+"!" 
+return "Nama saya"+" "+name+","+" "+"umur saya "+" "+age+" "+"tahun,"+" "+" alamat saya di"+" "+address+","+" "+"dan saya punya hobby yaitu"+" "+hobby+"!" 
 }
 var name = "John"
 var age = 30
@@ -43,25 +43,25 @@ var buahbuahan=
   {
       nama: "strawberry",
       warna: "merah",
-      ada_bijinya: "tidak",
+      ada_bijinya: false,
       harga: 9000
   },
   {
       nama: "jeruk",
       warna: "oranye",
-      ada_bijinya: "ada",
+      ada_bijinya: true,
       harga: 8000
   },
   {
       nama: "Semangka",
       warna: "Hijau & Merah",
-      ada_bijinya: "ada",
+      ada_bijinya: true,
       harga: 10000
   },    
   {
       nama: "Pisang",
       warna: "Kuning",
-      ada_bijinya: "tidak",
+      ada_bijinya: false,
       harga: 5000
   }
 ]
