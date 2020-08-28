@@ -43,25 +43,25 @@ var buahbuahan=
   {
       nama: "strawberry",
       warna: "merah",
-      "ada bijinya": "tidak",
+      ada_bijinya: "tidak",
       harga: 9000
   },
   {
       nama: "jeruk",
       warna: "oranye",
-      "ada bijinya": "ada",
+      ada_bijinya: "ada",
       harga: 8000
   },
   {
       nama: "Semangka",
       warna: "Hijau & Merah",
-      "ada bijinya": "ada",
+      ada_bijinya: "ada",
       harga: 10000
   },    
   {
       nama: "Pisang",
       warna: "Kuning",
-      "ada bijinya": "tidak",
+      ada_bijinya: "tidak",
       harga: 5000
   }
 ]
