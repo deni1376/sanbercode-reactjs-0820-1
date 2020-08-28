@@ -74,6 +74,9 @@ var dataFilm = []
 function tambahfilm(namafilm,durasi,genre,tahun){
     dataFilm.push({nama: namafilm,durasi: durasi,genre: genre, tahun: tahun})
 }
-tambahfilm("Scoob!","1 jam 33 menit",'Action,Fantasy','2020')
-console.log(dataFilm)
+tambahfilm("Scoob!","1 jam 33 menit","Action,Fantasy","2020")
+tambahfilm("Hunter x Hunter - Phantom Rouge ","1 jam 40 menit","Action,Cartoon","2013")
+tambahfilm("Mission Impossible Rouge Nation ","2 jam  10 menit","Action","2015")
+console.log("Data Film Pertama:")
+console.log(dataFilm[0])
 
